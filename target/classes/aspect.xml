@@ -25,4 +25,10 @@
 	<bean name="employeeAroundAspect" class="com.base.aspect.EmployeeAroundAspect" />
 	<bean name="employeeAnnotationAspect" class="com.base.aspect.EmployeeAnnotationAspect" />
 
+	<!-- <bean name="example" class="com.base.model.Example"> -->
+	<!-- <property name="id" value="1"></property> -->
+	<!-- </bean> -->
+
+
+
 </beans>

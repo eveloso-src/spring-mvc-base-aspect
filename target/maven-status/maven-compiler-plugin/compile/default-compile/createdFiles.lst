@@ -7,7 +7,12 @@ com/base/config/RootConfig.class
 com/base/config/MyWebAppInitializer.class
 com/base/aspect/EmployeeAfterAspect.class
 com/base/aspect/EmployeeAroundAspect.class
+com/base/model/Example.class
+com/base/controller/UserController.class
 com/base/config/WebConfig.class
 com/base/controller/HelloWorldController.class
+com/base/model/User.class
 com/base/service/EmployeeService.class
 com/base/aspect/Loggable.class
+com/base/validator/UserValidator.class
+com/base/dao/EmployeeDao.class
