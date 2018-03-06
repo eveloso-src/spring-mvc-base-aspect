@@ -28,6 +28,10 @@ public class UserController {
 
    @RequestMapping("/user")
    public String userForm(Locale locale,Model model) {
+	   
+//	   locale.setDefault(new Locale("en", "US"));
+	   Locale.setDefault(Locale.US);
+	   System.out.println("locale: " + locale.getCountry() + " " + locale.getLanguage());
       model.addAttribute("user", new User());
       return "userForm";
    }
