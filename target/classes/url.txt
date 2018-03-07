@@ -8,3 +8,6 @@ https://www.boraji.com/spring-security-4-custom-login-from-example
 
 SPRING AOP
 https://www.journaldev.com/2583/spring-aop-example-tutorial-aspect-advice-pointcut-joinpoint-annotations
+
+SPRING HIBERNATE ANNOTATION
+https://www.boraji.com/spring-4-hibernate-5-integration-example-with-zero-xml
