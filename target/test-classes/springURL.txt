@@ -19,3 +19,8 @@ https://docs.spring.io/spring-security/site/docs/current/guides/html5/helloworld
 http://websystique.com/spring-security/spring-security-4-hello-world-annotation-xml-example/
 
 https://www.boraji.com/spring-security-4-custom-login-from-example
+
+SPRING HIBERNATE
+https://docs.spring.io/spring/docs/3.0.x/spring-framework-reference/html/orm.html
+
+https://www.boraji.com/spring-4-hibernate-5-integration-example-with-zero-xml
