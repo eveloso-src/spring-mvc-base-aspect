@@ -1,23 +1,17 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
-<!DOCTYPE html>
+  pageEncoding="ISO-8859-1"%>
+<%@taglib uri="http://www.springframework.org/tags" prefix="spring"%>
+<!DOCTYPE html >
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Hola mundo</title>
+<title>base.COM</title>
 </head>
 <body>
-	<h2>${message}</h2>
-	<h4>Server date time is : ${date} 
-	<div>
-		usuario: <input type="text" id="user"/>
-	</div>
-
-	<div>
-		contraseña: <input type="password" id="password"/>
-	</div>
-	
-	<a href="login">continuar</a></h4>
-	
+  <h2>Spring Security 4 - Custom login form example</h2>
+  <hr />
+  <h4>${message}</h4>
+  <br>
+  <a href='<spring:url value="/signout"/>'>Logout</a>
 </body>
 </html>

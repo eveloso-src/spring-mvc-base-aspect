@@ -1,0 +1,21 @@
+SPRING MVC HELLO WORLD
+https://www.boraji.com/spring-4-mvc-hello-world-example
+
+
+
+SPRING VALIDATION
+
+https://www.boraji.com/spring-4-mvc-form-validation-example-using-validator-interface
+
+
+
+spring aop
+https://www.journaldev.com/2583/spring-aop-example-tutorial-aspect-advice-pointcut-joinpoint-annotations
+
+
+spring security
+https://docs.spring.io/spring-security/site/docs/current/guides/html5/helloworld-javaconfig.html
+
+http://websystique.com/spring-security/spring-security-4-hello-world-annotation-xml-example/
+
+https://www.boraji.com/spring-security-4-custom-login-from-example

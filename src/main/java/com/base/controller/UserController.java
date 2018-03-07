@@ -1,11 +1,16 @@
 package com.base.controller;
 
+import java.util.List;
+
 import java.util.Locale;
 
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
+import org.springframework.validation.FieldError;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.WebDataBinder;
 import org.springframework.web.bind.annotation.InitBinder;
@@ -17,6 +22,8 @@ import com.base.validator.UserValidator;
 
 @Controller
 public class UserController {
+	
+	Log log = LogFactory.getLog(UserController.class);
 
    @Autowired
    private UserValidator userValidator;
@@ -29,9 +36,6 @@ public class UserController {
    @RequestMapping("/user")
    public String userForm(Locale locale,Model model) {
 	   
-//	   locale.setDefault(new Locale("en", "US"));
-	   Locale.setDefault(Locale.US);
-	   System.out.println("locale: " + locale.getCountry() + " " + locale.getLanguage());
       model.addAttribute("user", new User());
       return "userForm";
    }
@@ -44,6 +48,10 @@ public class UserController {
          Model model) {
 
       if (result.hasErrors()) {
+    	  List<FieldError> resultError = result.getFieldErrors();
+    	  for (FieldError fieldError : resultError) {
+			log.info("error: " + fieldError.getField());
+		}
          return "userForm";
       }
       return "success";

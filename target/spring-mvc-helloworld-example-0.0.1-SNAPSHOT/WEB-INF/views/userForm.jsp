@@ -28,7 +28,7 @@
         <th>Email</th>
         <td>
             <form:input path="email" /> 
-<%--             <form:errors path="email" cssClass="error" /> --%>
+            <form:errors path="email" cssClass="error" />
          </td>
       </tr>
       <tr>
@@ -36,7 +36,7 @@
         <td>
           <form:radiobutton path="gender" value="Male" label="Male" /> 
           <form:radiobutton path="gender" value="Female" label="Female" /> 
-<%--           <form:errors path="gender" cssClass="error" /> --%>
+          <form:errors path="gender" cssClass="error" />
          </td>
       </tr>
       <tr>

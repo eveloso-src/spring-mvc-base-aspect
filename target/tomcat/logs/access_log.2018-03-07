@@ -1,0 +1,11 @@
+0:0:0:0:0:0:0:1 - - [07/Mar/2018:12:16:22 -0300] "GET / HTTP/1.1" 302 - http-bio-8080-exec-1 59
+0:0:0:0:0:0:0:1 - - [07/Mar/2018:12:16:23 -0300] "GET /login HTTP/1.1" 200 617 http-bio-8080-exec-3 603
+0:0:0:0:0:0:0:1 - - [07/Mar/2018:12:16:29 -0300] "GET /user HTTP/1.1" 302 - http-bio-8080-exec-4 3
+0:0:0:0:0:0:0:1 - - [07/Mar/2018:12:16:29 -0300] "GET /login HTTP/1.1" 200 617 http-bio-8080-exec-5 4
+0:0:0:0:0:0:0:1 - - [07/Mar/2018:12:16:29 -0300] "GET /user HTTP/1.1" 302 - http-bio-8080-exec-6 3
+0:0:0:0:0:0:0:1 - - [07/Mar/2018:12:16:29 -0300] "GET /login HTTP/1.1" 200 617 http-bio-8080-exec-7 13
+0:0:0:0:0:0:0:1 - - [07/Mar/2018:12:16:34 -0300] "POST /signin HTTP/1.1" 302 - http-bio-8080-exec-8 5
+0:0:0:0:0:0:0:1 - - [07/Mar/2018:12:16:34 -0300] "GET /loginRedirect HTTP/1.1" 200 189 http-bio-8080-exec-9 460
+0:0:0:0:0:0:0:1 - - [07/Mar/2018:12:16:38 -0300] "GET /user HTTP/1.1" 200 1534 http-bio-8080-exec-10 176
+0:0:0:0:0:0:0:1 - - [07/Mar/2018:12:16:38 -0300] "GET /user HTTP/1.1" 200 1534 http-bio-8080-exec-3 6
+0:0:0:0:0:0:0:1 - - [07/Mar/2018:12:19:48 -0300] "GET /saveUser?name=Emiliano+Veloso&email=elemudela%40gmail.com&gender=Male&languages=UK+English&_languages=1 HTTP/1.1" 200 505 http-bio-8080-exec-5 40

@@ -7,6 +7,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.support.ResourceBundleMessageSource;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
+import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 import org.springframework.web.servlet.view.JstlView;
@@ -46,6 +47,17 @@ public class WebConfig extends WebMvcConfigurerAdapter {
       return source;
    }
    
+//   @Override
+//   public void configureViewResolvers(ViewResolverRegistry registry) {
+//      registry.jsp().prefix("/WEB-INF/views/").suffix(".jsp");
+//   }
+
+   
+   // FUNDAMENTAL PARA MEAPEAR EL LOGIN EN SPRING SECURITY
+   @Override
+   public void addViewControllers(ViewControllerRegistry registry) {
+      registry.addViewController("/login").setViewName("login");
+   }
    
 //   @Bean
 //   public LocalValidatorFactoryBean validator() {

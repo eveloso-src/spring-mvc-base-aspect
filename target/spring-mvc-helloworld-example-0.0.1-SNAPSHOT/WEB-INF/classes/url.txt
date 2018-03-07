@@ -1,2 +1,9 @@
 VALIDACIONES
 http://www.jtech.ua.es/j2ee/publico/spring-2012-13/sesion05-apuntes.html
+
+
+spring security 
+https://www.boraji.com/spring-security-4-custom-login-from-example
+
+SPRING AOP
+https://www.journaldev.com/2583/spring-aop-example-tutorial-aspect-advice-pointcut-joinpoint-annotations

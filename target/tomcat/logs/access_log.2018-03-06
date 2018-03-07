@@ -1,2 +1,0 @@
-127.0.0.1 - - [06/Mar/2018:11:47:09 -0300] "GET /user HTTP/1.1" 200 1500 http-bio-8080-exec-1 717
-127.0.0.1 - - [06/Mar/2018:11:47:10 -0300] "GET /saveUser?name=&email=&_languages=1 HTTP/1.1" 200 1563 http-bio-8080-exec-2 9

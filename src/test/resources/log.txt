@@ -1,0 +1,25 @@
+EJEMPLO DE SPRING AOP: POINTCUT ADVICE
+
+mar 06, 2018 12:03:32 PM org.springframework.context.support.ClassPathXmlApplicationContext prepareRefresh
+INFORMACIÓN: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@46672f13: startup date [Tue Mar 06 12:03:32 ART 2018]; root of context hierarchy
+mar 06, 2018 12:03:32 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFORMACIÓN: Loading XML bean definitions from class path resource [aspect.xml]
+valor example: 2
+Service method getter called
+Before executing service method
+Executing Advice on getName()
+Executing loggingAdvice on getName()
+Executing secondAdvice on getName()
+Before invoking getName() method
+After invoking getName() method. Return value=Dummy Name
+getNameReturningAdvice executed. Returned String=Dummy Name
+Dummy Name
+Service method getter called
+Before executing service method
+String argument passed=Juan
+Before running loggingAdvice on method=execution(void com.base.model.Employee.setName(String))
+Agruments Passed=[Juan]
+Executing myAdvice!!
+Running After Advice. String argument passed=Juan
+mar 06, 2018 12:03:32 PM org.springframework.context.support.ClassPathXmlApplicationContext doClose
+INFORMACIÓN: Closing org.springframework.context.support.ClassPathXmlApplicationContext@46672f13: startup date [Tue Mar 06 12:03:32 ART 2018]; root of context hierarchy
